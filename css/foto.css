@@ -1,0 +1,24 @@
+#fotoalbum {
+ width: 590px;
+}
+#fotoalbum div.picture {
+ float: left;
+ width: 260px;
+ margin-left: 20px;
+ margin-top: 0px;
+}
+#fotoalbum div.data {
+ width: 100px;
+ margin-top: 20px;
+ margin-left: 280px;
+ color: #ec793a;
+}
+#fotoalbum div.description {
+ width: 296px;
+ margin-top: 20px;
+ margin-left: 287px;
+ margin-right: 7px;
+ font-style: italic;
+ 
+ 
+}
