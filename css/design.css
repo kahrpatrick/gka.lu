@@ -84,13 +84,13 @@ margin: 0 auto;
  	font-size: 0.9em;
  	font-weight: bold;
  	text-decoration: none;
- 	color: #ffffff;
+ 	color: brown;
 	}
 #nav1 a:visited {
         font-size: 0.9em;
  	font-weight: bold;
  	text-decoration: none;
- 	color: #ffffff;
+ 	color: brown;
 }
 	#nav1 div:hover {
 	margin-bottom: 3px;
@@ -150,7 +150,7 @@ margin: 0 auto;
 	margin-left: 5px;
  	text-align: center;
  	margin-left: 8px;
- 	color: #e79a41;
+ 	color: #ec793a;/*#bb6f17;*/
  	/*text-shadow: rgba(64, 64, 64, 0.496094) 6px 7px 5px;*/
 	}
 	#body p.c1 {
@@ -158,7 +158,7 @@ margin: 0 auto;
 	margin-right: 25px;
 	font-size: 1.1em;
         font-style: italic;
-        color: #a09a9a;
+        color: grey;/*#bb6f17;*/
 	}
 	#body p.c2 {
 	text-align: justify;
@@ -190,14 +190,20 @@ margin: 0 auto;
  font-family: 'FreeUniversal', sans-serif;
  color: #000000;
         }
-#body div.cal a:link,visited {
-color: #ec793a;
+#body div.cal a:link, visited {
+color: brown /*#ec793a*/;
+	font-weight: normal;
+ 	font-style: normal;
+ 	text-decoration: none;
+}
+#body div.cal a:visited {
+color: brown /*#ec793a*/;
 	font-weight: normal;
  	font-style: normal;
  	text-decoration: none;
 }
 #body div.cal a:hover {
-color: #ec793a;
+color: brown /*#ec793a*/;
 	font-weight: normal;
  	font-style: normal;
  	text-decoration: underline;
@@ -359,7 +365,7 @@ margin-right: 25px;
  margin-right: 15px;
  margin-bottom: 15px;
  /* Dekoration */
- background-color: #f6f0d9;
+ background-color: #ffffff;
  /* Schrift */
  font-size: 1em;
  font-weight: bold;
@@ -488,7 +494,7 @@ margin-bottom: 5px;
  background-color: #f2d2ac;
 }
 	#right div.title {
- 	color: #ffffff;
+ 	color: brown;
  	font-weight: bold;
 	}
 	#right div.sidebar_link {
@@ -512,19 +518,19 @@ margin-bottom: 5px;
  	list-style-image: url(grafiken/list.gif);
 	}
 	#calendar a:link {
-	 color: #ec793a;
+	 color: brown /*#ec793a*/;
 	font-weight: normal;
  	font-style: normal;
  	text-decoration: none;
 	}
 	#calendar a:hover {
-	 color: #ec793a;
+	 color: brown /*#ec793a*/;
 	 font-weight: normal;
  	font-style: normal;
  	text-decoration: none;
 }
 #calendar a:visited {
-color: #ec793a;
+color: brown /*#ec793a*/;
 	font-weight: normal;
  	font-style: normal;
  	text-decoration: none;
